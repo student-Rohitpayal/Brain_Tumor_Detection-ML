@@ -5,9 +5,15 @@ A brain tumor is an abnormal growth of tissue in the brain or central spine that
 
 ## Requirements
 
-opencv
+Step 1: Make sure your virtual environment is activated
 
-tensorflow
+            -> source venv/bin/activate  # On Linux/Mac
+            
+            -> cd C:\path\to\Brain-Tumor-Detection-master # On Windows
+            -> venv\Scripts\Activate.ps1
+
+Step 2: Then install
+            -> pip install -r requirements.txt
 
 ## Tumor Detection
 The GUI can be used to detect and view the tumor region.
